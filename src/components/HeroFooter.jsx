@@ -171,14 +171,18 @@ const HeroFooter = () => {
                                 {" "}
                                 {item.description}
                               </p>
-                              <div className="flex items-center mt-4 text-xs justify-center gap-2">
+                              <a
+                                href={item.link}
+                                target="_blank"
+                                className="flex items-center mt-4 text-xs justify-center gap-2"
+                              >
                                 <div className="text-lg text-blue-600 hover:text-red-600">
                                   {item.play}
                                 </div>
                                 <h1 className="hover:text-red-600 text-blue-600">
                                   {item.buttons}
                                 </h1>
-                              </div>
+                              </a>
                             </div>
                           </div>
                           {/* <img

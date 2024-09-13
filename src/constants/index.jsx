@@ -1,14 +1,5 @@
-import photography1 from "../assets/heroassets/photography1.webp";
-import photography2 from "../assets/heroassets/photography2.webp";
-import advert from "../assets/heroassets/advert.webp";
-import advert2 from "../assets/heroassets/advert2.webp";
+import photography1 from "../assets/heroassets/photography1.jpg";
 import artwork from "../assets/heroassets/artwork.webp";
-import artwork2 from "../assets/heroassets/artwork2.webp";
-import normadic1 from "../assets/heroassets/normadic1.webp";
-import normadic2 from "../assets/heroassets/normadic2.webp";
-import normadic3 from "../assets/heroassets/normadic3.webp";
-import normadic4 from "../assets/heroassets/normadic4.webp";
-import normadic5 from "../assets/heroassets/normadic5.webp";
 import normadic6 from "../assets/heroassets/normadic6.webp";
 
 import { FaReact, FaGithub, FaCss3Alt, FaHtml5 } from "react-icons/fa";
@@ -16,6 +7,7 @@ import { DiJavascript } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiFramer } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { GiClick } from "react-icons/gi";
 
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -121,11 +113,12 @@ export const myImages = [
   {
     id: 1,
     heading: "Dynamic visuals",
-    title: "Motion Design",
+    title: "Web Development",
     description:
-      "Motion design is where I truly excel, blending my artistic sensibilities with technical prowess to create dynamic and visually striking animations. From energetic title sequences to seamless product demonstrations, I bring a unique flair to every motion design project. By combining striking visuals, smooth transitions, and engaging narratives, I craft motion design experiences that captivate and inspire. Explore the fluid, emotive, and visually captivating world of my motion design portfolio.",
-    buttons: "Watch Now",
-    play: <FaRegCirclePlay />,
+      "As a full-stack developer, I specialize in crafting robust and scalable web applications. From front-end design to back-end infrastructure, I deliver seamless user experiences and efficient data management. With expertise in HTML, CSS, JavaScript, Python, Ruby, or Node.js, and databases like MySQL, PostgreSQL, or MongoDB, I create custom web solutions tailored to your unique business needs, ensuring optimal performance, security, and scalability.",
+    buttons: "Visit",
+    link: "https://freddymazenge.vercel.app/#",
+    play: <GiClick />,
     Number: "01",
     backgroundImage1: photography1,
   },
@@ -136,6 +129,7 @@ export const myImages = [
     description:
       "In the dynamic world of advertising, I thrive on the challenge of crafting impactful and memorable campaigns. My expertise in visual storytelling, brand strategy, and creative problem-solving allows me to develop advertising solutions that engage audiences and drive results. Whether it's a bold print ad, a captivating digital campaign, or a compelling video, my work is designed to capture attention, convey key messages, and leave a lasting impression. Discover how I can leverage the power of advertising to elevate your brand.",
     buttons: "Create Impact",
+    link: "https://www.linkedin.com/in/freddy-mazenge-32ab1b2a2/",
     play: <FaRegCirclePlay />,
     Number: "02",
     backgroundImage1: normadic6,
@@ -147,6 +141,7 @@ export const myImages = [
     description:
       "As a digital artist, I have a deep passion for creating visually captivating and thought-provoking artwork. My portfolio showcases a diverse range of digital pieces that blend cutting-edge techniques with a unique artistic vision. From vibrant abstract compositions to detailed digital illustrations, I strive to push the boundaries of the digital medium and deliver truly immersive visual experiences. Explore the boundless creativity and technical mastery behind my digital artwork.",
     buttons: "Explore Now",
+    link: "https://www.instagram.com/p/C-3o0VSKeev/?img_index=1",
     play: <FaRegCirclePlay />,
     Number: "03",
     backgroundImage1: artwork,

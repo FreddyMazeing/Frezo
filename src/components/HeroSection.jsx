@@ -102,12 +102,20 @@ const HeroSection = () => {
 
             {/* check out my work */}
             <div className="bg-slate-950 border-blue-600/10 duration-200 ease-in-out hover:border-red-600/30 border my-6 gap-4 flex items-center justify-around  rounded-full">
-              <h1 className="md:text-xs mx-4 my-1 hover:text-slate-700 duration-200 ease-in-out text-slate-500  lowercase font-sourcecodepro ">
-                Email Mazeing
-              </h1>
-              <div className="bg-red-600/10 rounded-full duration-200 ease-in-out hover:text-red-600 text-blue-600">
+              <a
+                href="whatsapp://send?phone=+27663832381"
+                target="_blank"
+                className="md:text-xs mx-4 my-1 hover:text-slate-700 duration-200 ease-in-out text-slate-500  lowercase font-sourcecodepro "
+              >
+                Contact Mazeing
+              </a>
+              <a
+                href="whatsapp://send?phone=+27663832381"
+                target="_blank"
+                className="bg-red-600/10 rounded-full duration-200 ease-in-out hover:text-red-600 text-blue-600"
+              >
                 <FaArrowAltCircleRight />
-              </div>
+              </a>
             </div>
             <form action="" ema></form>
           </div>
@@ -139,10 +147,7 @@ const HeroSection = () => {
           {myWork.map((item, id) => (
             <div key={id}>
               <div className="flex flex-col items-center justify-center rounded-lg bg-black/50 hover:bg-red-600 backdrop-blur-xl  px-1   duration-500 ease-in-out py-2">
-                <Link
-                  to="/posters"
-                  className="md:text-xs lowercase hover:tracking-wide duration-500 text-slate-400 hover:text-slate-100 hover:font-extralight font-spacegrotesk"
-                >
+                <Link className="md:text-xs lowercase hover:tracking-wide duration-500 text-slate-400 hover:text-slate-100 hover:font-extralight font-spacegrotesk">
                   {item.title}
                 </Link>
               </div>

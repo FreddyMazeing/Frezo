@@ -82,7 +82,7 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/hivepage"
+                to="/"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 Hive
@@ -91,7 +91,7 @@ const NavBar = () => {
 
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 Mazeing
