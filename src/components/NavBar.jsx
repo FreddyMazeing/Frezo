@@ -34,7 +34,8 @@ const NavBar = () => {
           <ul className="hidden md:flex space-x-4 z-10 translate-x-24 text-xs items-center text-slate-500 lowercase font-spacegrotesk">
             <li>
               <a
-                href="#"
+                href="https://www.instagram.com/mazeing.z/"
+                target="_blank"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 <FaInstagramSquare />
@@ -42,7 +43,8 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100083277746215"
+                target="_blank"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 <FaFacebook />
@@ -50,7 +52,8 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/freddy-mazenge-32ab1b2a2/"
+                target="_blank"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 <FaLinkedin />
@@ -58,7 +61,8 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="whatsapp://send?phone=+27663832381"
+                target="_blank"
                 className="hover:text-blue-600 duration-200 ease-in-out"
               >
                 <FaWhatsappSquare />
